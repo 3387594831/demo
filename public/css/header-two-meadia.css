@@ -1,0 +1,37 @@
+@media screen and (max-width:1055px){
+	.header-two .log2{
+		text-align: center;
+	}
+	.header-two .log2 img{
+		width: 80%;
+		margin-bottom: 0.42rem;
+	}
+	.header-two>ul li{
+		margin: 0 0.1rem;
+	}
+	.header-two>ul li a{
+		font-size: 0.14rem;
+	}
+	.header-two>ul .lan{
+		padding: 0 0.1rem;
+	}
+	.header-two>ul .lan::after,
+	.header-two>ul .lan2::after{
+		height: 0.14rem;
+	}
+	.header-two>ul .lan2{
+		padding-left: 0.1rem;
+	}
+	.header-two>ul .lan2 img{
+		margin-top: 0.34rem;
+		width: 0.15rem;
+	}
+}
+@media screen and (max-width:769px) {
+	.small-nav{
+		display: block;
+	}
+	.header{
+		display: none !important;
+	}
+}

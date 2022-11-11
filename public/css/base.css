@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	 font-size: 100px;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+header,footer,main,nav,section,article,aside{
+	display: block;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
